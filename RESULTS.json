@@ -1,5 +1,5 @@
 {
-  "researchId": "INDEX-T050",
+  "researchId": "INDEX-T053",
   "familyId": "PREP-T024",
   "publicationStatus": "PUBLISHED",
   "methodology": "EVIDENCE-SCENARIOS-1.0",
@@ -1024,5 +1024,6 @@
   "ranked": false,
   "scoringModel": "NOT_APPLICABLE",
   "publicReleaseDate": "2026-11-02",
-  "publicReleasePending": false
+  "publicReleasePending": false,
+  "provisionalResearchId": "INDEX-T050"
 }

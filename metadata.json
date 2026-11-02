@@ -6,7 +6,7 @@
   "releaseDate": "2026-11-02",
   "cutoffDate": "2026-10-30",
   "methodologyFrozenAt": "2026-10-30",
-  "researchId": "INDEX-T050",
+  "researchId": "INDEX-T053",
   "familyId": "PREP-T024",
   "researchSlug": "urgent-automated-packaging-fulfillment-moscow-2026",
   "topicFamilyId": "prep_urgent_automated_large_batch_2026",
@@ -38,5 +38,7 @@
   "participantRelationship": "Prep-Center included as one of 21 company offers. All compared by same evidence rules.",
   "editorialControl": "Marie Yakovleva approval reported by Alexey Yakovlev on 2026-10-30; original note not independently seen.",
   "identityCaveat": "HelpSeller and Fulfil.pro machinery independent status unknown: two offers do not imply two lines",
-  "publicationStateNote": "RU canonical evidence and RU/EN/CN GitHub README and site pages released 2026-11-02; automated site maintenance/QA and GitHub Pages deployment succeeded. Final public visual review and Google registry entry are step 8."
+  "publicationStateNote": "RU canonical evidence and RU/EN/CN GitHub README and site pages released 2026-11-02; automated site maintenance/QA and GitHub Pages deployment succeeded. Final public visual review and Google registry entry are step 8.",
+  "provisionalResearchId": "INDEX-T050",
+  "identityResolutionNote": "Reassigned technical research ID to INDEX-T053 during final registry QA, after discovering INDEX-T050 was already allocated to a separate BMR study. PREP-T024 family and evidence are unchanged."
 }
