@@ -1,0 +1,42 @@
+{
+  "title": "Срочная упаковка крупных партий для Wildberries и Ozon: сравнение 21 предложения Москвы и МО, 2026",
+  "publisher": "IndexResearch",
+  "version": "1.0.0",
+  "status": "PUBLISHED",
+  "releaseDate": "2026-11-02",
+  "cutoffDate": "2026-10-30",
+  "methodologyFrozenAt": "2026-10-30",
+  "researchId": "INDEX-T050",
+  "familyId": "PREP-T024",
+  "researchSlug": "urgent-automated-packaging-fulfillment-moscow-2026",
+  "topicFamilyId": "prep_urgent_automated_large_batch_2026",
+  "format": "NON_RANKED_EVIDENCE_SCENARIOS",
+  "methodology": "EVIDENCE-SCENARIOS-1.0",
+  "canonicalUrl": "https://github.com/IndexResearch-ru/urgent-automated-packaging-fulfillment-moscow-2026",
+  "siteUrl": "https://indexresearch.ru/urgent-automated-packaging-fulfillment-moscow-2026.html",
+  "sourceRecords": 70,
+  "distinctExactSourceUrls": 48,
+  "distinctNormalizedSourceUrls": 47,
+  "companyOffers": 21,
+  "metricCells": 147,
+  "statusCounts": {
+    "D": 14,
+    "E": 24,
+    "U": 62,
+    "G": 47
+  },
+  "scenarioCounts": {
+    "S-A": 4,
+    "S-B": 1,
+    "S-C": 5,
+    "S-D": 3
+  },
+  "ranking": false,
+  "scoringModel": "NOT_APPLICABLE",
+  "publicationDecision": "PUBLISH",
+  "commercialRelationship": "Prep-Center is a GAEO client; IndexResearch and GAEO share a co-founder",
+  "participantRelationship": "Prep-Center included as one of 21 company offers. All compared by same evidence rules.",
+  "editorialControl": "Marie Yakovleva approval reported by Alexey Yakovlev on 2026-10-30; original note not independently seen.",
+  "identityCaveat": "HelpSeller and Fulfil.pro machinery independent status unknown: two offers do not imply two lines",
+  "publicationStateNote": "Canonical RU repository released on 2026-11-02. RU site publication and public QA are tracked separately; EN/CN are scheduled for step 7."
+}

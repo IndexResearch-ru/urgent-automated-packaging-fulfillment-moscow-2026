@@ -1,0 +1,1028 @@
+{
+  "researchId": "INDEX-T050",
+  "familyId": "PREP-T024",
+  "publicationStatus": "PUBLISH_APPROVED",
+  "methodology": "EVIDENCE-SCENARIOS-1.0",
+  "methodologyFrozenAt": "2026-10-30",
+  "dataReviewDate": "2026-10-30",
+  "status": "PUBLISHED",
+  "candidateUnit": "branded service offer; not a confirmed independent site or machine",
+  "modelOrder": {
+    "incoming_units": 10000,
+    "sku_range": [
+      1,
+      3
+    ],
+    "deadline_hours": 72,
+    "deadline_kind": "BUYER_MODEL_NOT_SUPPLIER_SLA"
+  },
+  "candidatesChecked": 21,
+  "metrics": [
+    "TECH",
+    "OUTPUT",
+    "CLOCK",
+    "QC",
+    "FBO",
+    "FIT",
+    "PRICE"
+  ],
+  "matrixCells": 147,
+  "statusCounts": {
+    "D": 14,
+    "E": 24,
+    "U": 62,
+    "G": 47
+  },
+  "sourceRecordCount": 70,
+  "distinctExactUrls": 48,
+  "distinctUrlsIgnoringWww": 47,
+  "webRecheckedCandidatePages": 21,
+  "rechecksType": "indexed/cached public web text; no fresh direct HTTP guarantee",
+  "recodedCells": 6,
+  "scenarioCounts": {
+    "S-A": 4,
+    "S-B": 1,
+    "S-C": 5,
+    "S-D": 3
+  },
+  "scenarioMembers": {
+    "S-A": {
+      "candidate_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C16"
+      ],
+      "names": [
+        "Fulfil.pro",
+        "HelpSeller",
+        "U2PACK",
+        "Преп-Центр"
+      ]
+    },
+    "S-B": {
+      "candidate_ids": [
+        "C01"
+      ],
+      "names": [
+        "Преп-Центр"
+      ]
+    },
+    "S-C": {
+      "candidate_ids": [
+        "C01",
+        "C03",
+        "C04",
+        "C17",
+        "C20"
+      ],
+      "names": [
+        "Fulfil.pro",
+        "FullBox",
+        "InPacks",
+        "Преп-Центр",
+        "СДЭК Фулфилмент"
+      ]
+    },
+    "S-D": {
+      "candidate_ids": [
+        "C16",
+        "C19",
+        "C20"
+      ],
+      "names": [
+        "InPacks",
+        "U2PACK",
+        "ЛБК-МПро"
+      ]
+    }
+  },
+  "identityDisclaimer": "HelpSeller and Fulfil.pro machinery independent status unknown: two offers do not imply two lines",
+  "conflictOfInterest": "Prep-Center is a GAEO client; IndexResearch and GAEO share a co-founder",
+  "companies": [
+    {
+      "candidate_id": "C15",
+      "name": "9Gramm",
+      "operator_class": "фулфилмент полного цикла",
+      "identity_group": "",
+      "status": {
+        "TECH": "G",
+        "OUTPUT": "U",
+        "CLOCK": "U",
+        "QC": "G",
+        "FBO": "G",
+        "FIT": "E",
+        "PRICE": "D"
+      },
+      "source_ids": {
+        "TECH": [
+          "S021"
+        ],
+        "OUTPUT": [
+          "S021"
+        ],
+        "CLOCK": [
+          "S021"
+        ],
+        "QC": [
+          "S021"
+        ],
+        "FBO": [
+          "S021"
+        ],
+        "FIT": [
+          "S021"
+        ],
+        "PRICE": [
+          "S021"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C11",
+      "name": "E-Fulfillment",
+      "operator_class": "фулфилмент полного цикла",
+      "identity_group": "",
+      "status": {
+        "TECH": "U",
+        "OUTPUT": "U",
+        "CLOCK": "U",
+        "QC": "U",
+        "FBO": "G",
+        "FIT": "G",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S017"
+        ],
+        "OUTPUT": [
+          "S017"
+        ],
+        "CLOCK": [
+          "S017"
+        ],
+        "QC": [
+          "S017"
+        ],
+        "FBO": [
+          "S017"
+        ],
+        "FIT": [
+          "S017"
+        ],
+        "PRICE": [
+          "S017"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C04",
+      "name": "Fulfil.pro",
+      "operator_class": "фулфилмент полного цикла / автоматическая упаковка",
+      "identity_group": "HELPSELLER_FULFILPRO_OPEN",
+      "status": {
+        "TECH": "D",
+        "OUTPUT": "E",
+        "CLOCK": "G",
+        "QC": "E",
+        "FBO": "E",
+        "FIT": "E",
+        "PRICE": "D"
+      },
+      "source_ids": {
+        "TECH": [
+          "S010",
+          "S046",
+          "S066"
+        ],
+        "OUTPUT": [
+          "S009"
+        ],
+        "CLOCK": [
+          "S009",
+          "S066"
+        ],
+        "QC": [
+          "S066"
+        ],
+        "FBO": [
+          "S066"
+        ],
+        "FIT": [
+          "S066"
+        ],
+        "PRICE": [
+          "S066"
+        ]
+      },
+      "scenarios": [
+        "S-A",
+        "S-C"
+      ]
+    },
+    {
+      "candidate_id": "C06",
+      "name": "FULFILLYOU",
+      "operator_class": "фулфилмент полного цикла",
+      "identity_group": "",
+      "status": {
+        "TECH": "U",
+        "OUTPUT": "U",
+        "CLOCK": "U",
+        "QC": "U",
+        "FBO": "G",
+        "FIT": "G",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S012"
+        ],
+        "OUTPUT": [
+          "S012"
+        ],
+        "CLOCK": [
+          "S012"
+        ],
+        "QC": [
+          "S012"
+        ],
+        "FBO": [
+          "S012"
+        ],
+        "FIT": [
+          "S012"
+        ],
+        "PRICE": [
+          "S012"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C03",
+      "name": "FullBox",
+      "operator_class": "фулфилмент полного цикла",
+      "identity_group": "",
+      "status": {
+        "TECH": "U",
+        "OUTPUT": "U",
+        "CLOCK": "G",
+        "QC": "E",
+        "FBO": "E",
+        "FIT": "E",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S007",
+          "S008"
+        ],
+        "OUTPUT": [
+          "S007",
+          "S008"
+        ],
+        "CLOCK": [
+          "S007",
+          "S065"
+        ],
+        "QC": [
+          "S007",
+          "S065"
+        ],
+        "FBO": [
+          "S065"
+        ],
+        "FIT": [
+          "S007"
+        ],
+        "PRICE": [
+          "S007",
+          "S008"
+        ]
+      },
+      "scenarios": [
+        "S-C"
+      ]
+    },
+    {
+      "candidate_id": "C02",
+      "name": "HelpSeller",
+      "operator_class": "фулфилмент / упаковочное оборудование",
+      "identity_group": "HELPSELLER_FULFILPRO_OPEN",
+      "status": {
+        "TECH": "D",
+        "OUTPUT": "U",
+        "CLOCK": "G",
+        "QC": "U",
+        "FBO": "G",
+        "FIT": "G",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S044",
+          "S064"
+        ],
+        "OUTPUT": [
+          "S044"
+        ],
+        "CLOCK": [
+          "S044"
+        ],
+        "QC": [
+          "S044"
+        ],
+        "FBO": [
+          "S044"
+        ],
+        "FIT": [
+          "S044",
+          "S064"
+        ],
+        "PRICE": [
+          "S044"
+        ]
+      },
+      "scenarios": [
+        "S-A"
+      ]
+    },
+    {
+      "candidate_id": "C09",
+      "name": "IndigoLab",
+      "operator_class": "складской 3PL / фулфилмент",
+      "identity_group": "",
+      "status": {
+        "TECH": "U",
+        "OUTPUT": "U",
+        "CLOCK": "U",
+        "QC": "U",
+        "FBO": "G",
+        "FIT": "G",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S015"
+        ],
+        "OUTPUT": [
+          "S015"
+        ],
+        "CLOCK": [
+          "S015"
+        ],
+        "QC": [
+          "S015"
+        ],
+        "FBO": [
+          "S015"
+        ],
+        "FIT": [
+          "S015"
+        ],
+        "PRICE": [
+          "S015"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C20",
+      "name": "InPacks",
+      "operator_class": "копакинг / фулфилмент",
+      "identity_group": "",
+      "status": {
+        "TECH": "G",
+        "OUTPUT": "U",
+        "CLOCK": "G",
+        "QC": "E",
+        "FBO": "E",
+        "FIT": "E",
+        "PRICE": "D"
+      },
+      "source_ids": {
+        "TECH": [
+          "S051",
+          "S069"
+        ],
+        "OUTPUT": [
+          "S051",
+          "S061"
+        ],
+        "CLOCK": [
+          "S051",
+          "S069"
+        ],
+        "QC": [
+          "S069"
+        ],
+        "FBO": [
+          "S051",
+          "S069"
+        ],
+        "FIT": [
+          "S069"
+        ],
+        "PRICE": [
+          "S069"
+        ]
+      },
+      "scenarios": [
+        "S-C",
+        "S-D"
+      ]
+    },
+    {
+      "candidate_id": "C07",
+      "name": "KIT ALL",
+      "operator_class": "фулфилмент полного цикла",
+      "identity_group": "",
+      "status": {
+        "TECH": "U",
+        "OUTPUT": "U",
+        "CLOCK": "U",
+        "QC": "U",
+        "FBO": "E",
+        "FIT": "G",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S013"
+        ],
+        "OUTPUT": [
+          "S013"
+        ],
+        "CLOCK": [
+          "S013"
+        ],
+        "QC": [
+          "S013"
+        ],
+        "FBO": [
+          "S013"
+        ],
+        "FIT": [
+          "S013"
+        ],
+        "PRICE": [
+          "S013"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C12",
+      "name": "LOGIDEX",
+      "operator_class": "фулфилмент полного цикла",
+      "identity_group": "",
+      "status": {
+        "TECH": "G",
+        "OUTPUT": "U",
+        "CLOCK": "G",
+        "QC": "G",
+        "FBO": "E",
+        "FIT": "G",
+        "PRICE": "E"
+      },
+      "source_ids": {
+        "TECH": [
+          "S018"
+        ],
+        "OUTPUT": [
+          "S018"
+        ],
+        "CLOCK": [
+          "S018",
+          "S070"
+        ],
+        "QC": [
+          "S018",
+          "S070"
+        ],
+        "FBO": [
+          "S018",
+          "S070"
+        ],
+        "FIT": [
+          "S018"
+        ],
+        "PRICE": [
+          "S018",
+          "S070"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C10",
+      "name": "O-FF",
+      "operator_class": "фулфилмент полного цикла",
+      "identity_group": "",
+      "status": {
+        "TECH": "U",
+        "OUTPUT": "U",
+        "CLOCK": "U",
+        "QC": "G",
+        "FBO": "G",
+        "FIT": "G",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S016"
+        ],
+        "OUTPUT": [
+          "S016"
+        ],
+        "CLOCK": [
+          "S016"
+        ],
+        "QC": [
+          "S016"
+        ],
+        "FBO": [
+          "S016"
+        ],
+        "FIT": [
+          "S016"
+        ],
+        "PRICE": [
+          "S016"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C21",
+      "name": "Pereupakovka",
+      "operator_class": "фулфилмент / переупаковка",
+      "identity_group": "",
+      "status": {
+        "TECH": "G",
+        "OUTPUT": "U",
+        "CLOCK": "U",
+        "QC": "G",
+        "FBO": "G",
+        "FIT": "E",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S029"
+        ],
+        "OUTPUT": [
+          "S029"
+        ],
+        "CLOCK": [
+          "S029"
+        ],
+        "QC": [
+          "S029"
+        ],
+        "FBO": [
+          "S029"
+        ],
+        "FIT": [
+          "S029"
+        ],
+        "PRICE": [
+          "S029"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C23",
+      "name": "Repacking24",
+      "operator_class": "фулфилмент полного цикла",
+      "identity_group": "",
+      "status": {
+        "TECH": "G",
+        "OUTPUT": "U",
+        "CLOCK": "G",
+        "QC": "G",
+        "FBO": "G",
+        "FIT": "G",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S031"
+        ],
+        "OUTPUT": [
+          "S031"
+        ],
+        "CLOCK": [
+          "S031"
+        ],
+        "QC": [
+          "S031"
+        ],
+        "FBO": [
+          "S031"
+        ],
+        "FIT": [
+          "S031"
+        ],
+        "PRICE": [
+          "S031"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C16",
+      "name": "U2PACK",
+      "operator_class": "промышленный копакинг / контрактная упаковка",
+      "identity_group": "",
+      "status": {
+        "TECH": "D",
+        "OUTPUT": "U",
+        "CLOCK": "G",
+        "QC": "G",
+        "FBO": "E",
+        "FIT": "E",
+        "PRICE": "G"
+      },
+      "source_ids": {
+        "TECH": [
+          "S022",
+          "S053"
+        ],
+        "OUTPUT": [
+          "S053",
+          "S054"
+        ],
+        "CLOCK": [
+          "S054",
+          "S067"
+        ],
+        "QC": [
+          "S053"
+        ],
+        "FBO": [
+          "S054",
+          "S067"
+        ],
+        "FIT": [
+          "S053",
+          "S067"
+        ],
+        "PRICE": [
+          "S067"
+        ]
+      },
+      "scenarios": [
+        "S-A",
+        "S-D"
+      ]
+    },
+    {
+      "candidate_id": "C05",
+      "name": "Бета ПРО",
+      "operator_class": "складской 3PL / фулфилмент",
+      "identity_group": "",
+      "status": {
+        "TECH": "U",
+        "OUTPUT": "U",
+        "CLOCK": "U",
+        "QC": "U",
+        "FBO": "G",
+        "FIT": "G",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S011"
+        ],
+        "OUTPUT": [
+          "S011"
+        ],
+        "CLOCK": [
+          "S011"
+        ],
+        "QC": [
+          "S011"
+        ],
+        "FBO": [
+          "S011"
+        ],
+        "FIT": [
+          "S011"
+        ],
+        "PRICE": [
+          "S011"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C08",
+      "name": "Делегируй",
+      "operator_class": "фулфилмент полного цикла",
+      "identity_group": "",
+      "status": {
+        "TECH": "U",
+        "OUTPUT": "U",
+        "CLOCK": "G",
+        "QC": "U",
+        "FBO": "E",
+        "FIT": "G",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S014"
+        ],
+        "OUTPUT": [
+          "S014"
+        ],
+        "CLOCK": [
+          "S014"
+        ],
+        "QC": [
+          "S014"
+        ],
+        "FBO": [
+          "S014"
+        ],
+        "FIT": [
+          "S014"
+        ],
+        "PRICE": [
+          "S014"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C14",
+      "name": "Забрал-Упаковал",
+      "operator_class": "упаковочный сервис / фулфилмент",
+      "identity_group": "",
+      "status": {
+        "TECH": "G",
+        "OUTPUT": "U",
+        "CLOCK": "U",
+        "QC": "E",
+        "FBO": "G",
+        "FIT": "G",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S020"
+        ],
+        "OUTPUT": [
+          "S020"
+        ],
+        "CLOCK": [
+          "S020"
+        ],
+        "QC": [
+          "S020"
+        ],
+        "FBO": [
+          "S020"
+        ],
+        "FIT": [
+          "S020"
+        ],
+        "PRICE": [
+          "S020"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C19",
+      "name": "ЛБК-МПро",
+      "operator_class": "промышленный копакинг / промо-упаковка",
+      "identity_group": "",
+      "status": {
+        "TECH": "G",
+        "OUTPUT": "U",
+        "CLOCK": "U",
+        "QC": "U",
+        "FBO": "U",
+        "FIT": "G",
+        "PRICE": "U"
+      },
+      "source_ids": {
+        "TECH": [
+          "S027",
+          "S055"
+        ],
+        "OUTPUT": [
+          "S055"
+        ],
+        "CLOCK": [
+          "S055"
+        ],
+        "QC": [
+          "S055"
+        ],
+        "FBO": [
+          "S055"
+        ],
+        "FIT": [
+          "S055"
+        ],
+        "PRICE": [
+          "S055"
+        ]
+      },
+      "scenarios": [
+        "S-D"
+      ]
+    },
+    {
+      "candidate_id": "C13",
+      "name": "Нитропак",
+      "operator_class": "фулфилмент полного цикла",
+      "identity_group": "",
+      "status": {
+        "TECH": "G",
+        "OUTPUT": "U",
+        "CLOCK": "U",
+        "QC": "E",
+        "FBO": "G",
+        "FIT": "G",
+        "PRICE": "D"
+      },
+      "source_ids": {
+        "TECH": [
+          "S019"
+        ],
+        "OUTPUT": [
+          "S019"
+        ],
+        "CLOCK": [
+          "S019"
+        ],
+        "QC": [
+          "S019"
+        ],
+        "FBO": [
+          "S019"
+        ],
+        "FIT": [
+          "S019"
+        ],
+        "PRICE": [
+          "S019"
+        ]
+      },
+      "scenarios": []
+    },
+    {
+      "candidate_id": "C01",
+      "name": "Преп-Центр",
+      "operator_class": "фулфилмент полного цикла / промышленная упаковка",
+      "identity_group": "",
+      "status": {
+        "TECH": "D",
+        "OUTPUT": "D",
+        "CLOCK": "D",
+        "QC": "D",
+        "FBO": "D",
+        "FIT": "D",
+        "PRICE": "E"
+      },
+      "source_ids": {
+        "TECH": [
+          "S001",
+          "S062",
+          "S063"
+        ],
+        "OUTPUT": [
+          "S062",
+          "S063"
+        ],
+        "CLOCK": [
+          "S062",
+          "S063",
+          "S057"
+        ],
+        "QC": [
+          "S062",
+          "S063"
+        ],
+        "FBO": [
+          "S062",
+          "S063"
+        ],
+        "FIT": [
+          "S057",
+          "S062",
+          "S063"
+        ],
+        "PRICE": [
+          "S004"
+        ]
+      },
+      "scenarios": [
+        "S-A",
+        "S-B",
+        "S-C"
+      ]
+    },
+    {
+      "candidate_id": "C17",
+      "name": "СДЭК Фулфилмент",
+      "operator_class": "фулфилмент полного цикла / сборка наборов",
+      "identity_group": "",
+      "status": {
+        "TECH": "U",
+        "OUTPUT": "U",
+        "CLOCK": "U",
+        "QC": "E",
+        "FBO": "E",
+        "FIT": "E",
+        "PRICE": "D"
+      },
+      "source_ids": {
+        "TECH": [
+          "S052"
+        ],
+        "OUTPUT": [
+          "S052"
+        ],
+        "CLOCK": [
+          "S052"
+        ],
+        "QC": [
+          "S068"
+        ],
+        "FBO": [
+          "S052",
+          "S068"
+        ],
+        "FIT": [
+          "S068"
+        ],
+        "PRICE": [
+          "S068"
+        ]
+      },
+      "scenarios": [
+        "S-C"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Какие компании можно запросить для автоматизированной упаковки 10 000 товаров?",
+      "answer": "В исходном корпусе 4 брендовых предложения подробно заявляют физическую упаковочную машину: Преп-Центр, HelpSeller, Fulfil.pro и U2PACK. Для заказа требуется согласовать конкретный товар, машину, производственный адрес и срок. Независимость мощностей HelpSeller и Fulfil.pro не установлена."
+    },
+    {
+      "question": "Означают ли 7 000 единиц в час готовую поставку за 2 дня?",
+      "answer": "Нет. Показатель может относиться к одной упаковочной операции и не включает приемку, контроль брака, маркировку, сборку коробов и передачу. Дата готовности полной партии определяется производственным графиком."
+    },
+    {
+      "question": "В чем разница между 8 400 и 8 357 единицами в кейсе Преп-Центра?",
+      "answer": "В публичном кейсе компании 8 400 единиц поступили на приемку, 8 357 включили в готовые поставки после исключения 43 поврежденных или несоответствующих единиц. Компания сообщает о 2 рабочих днях, но независимый акт приемки не изучался."
+    },
+    {
+      "question": "Можно ли сложить мощности HelpSeller и Fulfil.pro?",
+      "answer": "Нет. Сайты публикуют одинаковые величины 4 200 и 7 000 единиц в час, а также 120 000 в сутки. Указаны разные адреса и контакты, но ни общность, ни независимость физических линий не подтверждены."
+    },
+    {
+      "question": "Почему FullBox относится к сценарию процедур, если модель машины не подтверждена?",
+      "answer": "Сценарий S-C относится к описанным процедурам контроля и подготовки FBO. Он не требует доказательства собственной автоматической линии. Это отдельный сценарий, без общего места в рейтинге."
+    },
+    {
+      "question": "Зачем сравнивать копакинг и фулфилмент, если услуги разные?",
+      "answer": "В сценариях сопоставляются разные возможные модели договора: промышленный подряд на упаковку и полный цикл FBO. Перед заказом необходимо отдельно определить ответственность за маркировку грузовых мест и логистику."
+    },
+    {
+      "question": "Гарантируется ли срок 72 часа?",
+      "answer": "Нет. 72 часа заданы модельным запросом покупателя, а не обязательством какого-либо участника. Нужны письменный график по конкретным SKU, подтвержденный производственный слот и конечное событие приемки."
+    },
+    {
+      "question": "Почему у многих компаний стоит U?",
+      "answer": "U означает, что открытых доказательств недостаточно. Это не отрицание услуги и не оценка качества. Отдельные договоры и завершенные проекты могут содержать данные, которые не опубликованы на сайте."
+    }
+  ],
+  "editorialApproval": {
+    "date": "2026-10-30",
+    "editor": "Мария Яковлева",
+    "reportedBy": "Алексей Яковлев",
+    "userMessage": "она согласна",
+    "source": "user_reported_in_chat",
+    "independentEditorConfirmation": false,
+    "preciseApprovalTimeKnown": false,
+    "methodologyUnchanged": true,
+    "publicSurfacesPublished": false
+  },
+  "publicationDecision": "PUBLISH",
+  "ranked": false,
+  "scoringModel": "NOT_APPLICABLE",
+  "publicReleaseDate": null,
+  "publicReleasePending": true
+}

@@ -1,0 +1,28 @@
+candidate_id,company,origin,source_ids
+C01,Преп-Центр,original_15,S001;S002;S003;S004;S005;S057
+C02,HelpSeller,original_15,S006;S044
+C03,FullBox,original_15,S007;S008
+C04,Fulfil.pro,original_15,S009;S010;S045;S046
+C05,Бета ПРО,original_15,S011
+C06,FULFILLYOU,original_15,S012
+C07,KIT ALL,original_15,S013
+C08,Делегируй,original_15,S014
+C09,IndigoLab,original_15,S015
+C10,O-FF,original_15,S016
+C11,E-Fulfillment,original_15,S017
+C12,LOGIDEX,original_15,S018
+C13,Нитропак,original_15,S019
+C14,Забрал-Упаковал,original_15,S020
+C15,9Gramm,original_15,S021
+C16,U2PACK,market_expansion,S022;S023;S053;S054
+C17,СДЭК Фулфилмент,market_expansion,S024;S025;S052
+C18,HITERS-PACK,market_expansion,S026;S050
+C19,ЛБК-МПро,market_expansion,S027;S055
+C20,InPacks,market_expansion,S028;S051;S061
+C21,Pereupakovka,market_expansion,S029
+C22,RFL,market_expansion,S030;S047
+C23,Repacking24,market_expansion,S031
+C24,CallPlex,market_expansion,S032
+C25,Упаковка-Сервис (kopaking.ru),market_expansion,S033;S049
+C26,Будет сделано!,market_expansion,S034;S048
+C27,VK Copacking,geography_reserve,S035;S056

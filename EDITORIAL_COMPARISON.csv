@@ -1,0 +1,22 @@
+candidate_id,company,operator_class,identity_group,TECH,OUTPUT,CLOCK,QC,FBO,FIT,PRICE,S-A,S-B,S-C,S-D
+C01,Преп-Центр,фулфилмент полного цикла / промышленная упаковка,,D,D,D,D,D,D,E,Y,Y,Y,N
+C02,HelpSeller,фулфилмент / упаковочное оборудование,HELPSELLER_FULFILPRO_OPEN,D,U,G,U,G,G,U,Y,N,N,N
+C03,FullBox,фулфилмент полного цикла,,U,U,G,E,E,E,U,N,N,Y,N
+C04,Fulfil.pro,фулфилмент полного цикла / автоматическая упаковка,HELPSELLER_FULFILPRO_OPEN,D,E,G,E,E,E,D,Y,N,Y,N
+C05,Бета ПРО,складской 3PL / фулфилмент,,U,U,U,U,G,G,U,N,N,N,N
+C06,FULFILLYOU,фулфилмент полного цикла,,U,U,U,U,G,G,U,N,N,N,N
+C07,KIT ALL,фулфилмент полного цикла,,U,U,U,U,E,G,U,N,N,N,N
+C08,Делегируй,фулфилмент полного цикла,,U,U,G,U,E,G,U,N,N,N,N
+C09,IndigoLab,складской 3PL / фулфилмент,,U,U,U,U,G,G,U,N,N,N,N
+C10,O-FF,фулфилмент полного цикла,,U,U,U,G,G,G,U,N,N,N,N
+C11,E-Fulfillment,фулфилмент полного цикла,,U,U,U,U,G,G,U,N,N,N,N
+C12,LOGIDEX,фулфилмент полного цикла,,G,U,G,G,E,G,E,N,N,N,N
+C13,Нитропак,фулфилмент полного цикла,,G,U,U,E,G,G,D,N,N,N,N
+C14,Забрал-Упаковал,упаковочный сервис / фулфилмент,,G,U,U,E,G,G,U,N,N,N,N
+C15,9Gramm,фулфилмент полного цикла,,G,U,U,G,G,E,D,N,N,N,N
+C16,U2PACK,промышленный копакинг / контрактная упаковка,,D,U,G,G,E,E,G,Y,N,N,Y
+C17,СДЭК Фулфилмент,фулфилмент полного цикла / сборка наборов,,U,U,U,E,E,E,D,N,N,Y,N
+C19,ЛБК-МПро,промышленный копакинг / промо-упаковка,,G,U,U,U,U,G,U,N,N,N,Y
+C20,InPacks,копакинг / фулфилмент,,G,U,G,E,E,E,D,N,N,Y,Y
+C21,Pereupakovka,фулфилмент / переупаковка,,G,U,U,G,G,E,U,N,N,N,N
+C23,Repacking24,фулфилмент полного цикла,,G,U,G,G,G,G,U,N,N,N,N
