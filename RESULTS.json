@@ -1,7 +1,7 @@
 {
   "researchId": "INDEX-T050",
   "familyId": "PREP-T024",
-  "publicationStatus": "PUBLISH_APPROVED",
+  "publicationStatus": "PUBLISHED_RU",
   "methodology": "EVIDENCE-SCENARIOS-1.0",
   "methodologyFrozenAt": "2026-10-30",
   "dataReviewDate": "2026-10-30",
@@ -1023,6 +1023,6 @@
   "publicationDecision": "PUBLISH",
   "ranked": false,
   "scoringModel": "NOT_APPLICABLE",
-  "publicReleaseDate": null,
-  "publicReleasePending": true
+  "publicReleaseDate": "2026-11-02",
+  "publicReleasePending": false
 }
