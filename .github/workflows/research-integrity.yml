@@ -1,0 +1,41 @@
+name: INDEX-T053 research integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  evidence-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Syntax-check validator
+        run: python -m py_compile calculate.py
+      - name: Recalculate published research evidence invariants
+        run: python calculate.py
+      - name: Verify release identity and immutable corpus
+        run: |
+          python - <<'PY'
+          import csv, json
+          from collections import Counter
+          with open('RESULTS.json',encoding='utf-8') as f: result=json.load(f)
+          with open('metadata.json',encoding='utf-8') as f: meta=json.load(f)
+          with open('FACT_CLAIM_MAP.csv',encoding='utf-8',newline='') as f: cells=list(csv.DictReader(f))
+          with open('SOURCE_REGISTER.csv',encoding='utf-8',newline='') as f: sources=list(csv.DictReader(f))
+          assert result['researchId']==meta['researchId']=='INDEX-T053'
+          assert result['familyId']==meta['familyId']=='PREP-T024'
+          assert len(result['companies'])==21
+          assert len(cells)==result['matrixCells']==147
+          assert dict(Counter(x['evidence_status'] for x in cells))==result['statusCounts']
+          assert len(sources)==70
+          assert result['scoringModel']=='NOT_APPLICABLE'
+          assert result['ranked'] is False
+          assert result['publicReleaseDate']==meta['releaseDate']=='2026-11-02'
+          print("INDEX-T053 evidence integrity: PASS")
+          PY
