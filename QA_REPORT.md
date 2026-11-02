@@ -23,3 +23,13 @@
 - EN/CN репозитории уже созданы и пока пусты; наполнение, каталоги, тематика и реестр относятся к шагам 7–8.
 
 **Шаг 6: RU canonical package опубликован, RU research page развернута, программные проверки пройдены.**
+
+## Шаг 7 из 8: EN/CN и каталоги, 02.11.2026
+
+- Полные EN и CN README опубликованы в созданных репозиториях: https://github.com/IndexResearch-ru/urgent-automated-packaging-fulfillment-moscow-2026-en, https://github.com/IndexResearch-ru/urgent-automated-packaging-fulfillment-moscow-2026-cn. Каждая версия содержит 21 предложение × 7 признаков, все 4 сценария, 8 FAQ, disclosure и исходящие ссылки на единственный RU-пакет.
+- 3 языковые страницы: https://indexresearch.ru/urgent-automated-packaging-fulfillment-moscow-2026.html, https://indexresearch.ru/en/urgent-automated-packaging-fulfillment-moscow-2026.html, https://indexresearch.ru/cn/urgent-automated-packaging-fulfillment-moscow-2026.html.
+- Сайт: локализованные карточки в 3 каталогах и главных страницах EN/CN; RU-лента пересобрана генератором. Выпуск добавлен ровно в 1 тему `marketplace-fulfillment`, тематические страницы пересобраны.
+- GitHub Actions site maintenance и `site_qa.py`: SUCCESS, https://github.com/IndexResearch-ru/IndexResearch-ru.github.io/actions/runs/41400942152.
+- GitHub Pages deployment: SUCCESS, https://github.com/IndexResearch-ru/IndexResearch-ru.github.io/actions/runs/41400975790.
+- Связки Schema.org: `Dataset.sameAs` каждого языка с каноническим RU GitHub, `Article.sameAs` с GitHub соответствующего языка, `Article.isBasedOn` EN/CN с RU-пакетом. В результатах 21 `ItemList`, 8 `FAQPage` и оригинальные статусы D=14/E=24/G=47/U=62.
+- Проверка реального отображения сайта в браузере (desktop/mobile 360/390/412 px), ручная проверка GitHub Markdown-рендера и обновление живого Google-реестра отложены до шага 8. Инструмент внешнего просмотра в шаге 7 не смог открыть новые URL; успешный деплой не выдается за визуальную приемку.

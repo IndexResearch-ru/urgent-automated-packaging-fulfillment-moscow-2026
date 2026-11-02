@@ -1,7 +1,7 @@
 # Срочная упаковка крупных партий для Wildberries и Ozon: сравнение 21 предложения Москвы и МО, 2026
 <p align="left"><a href="https://indexresearch.ru/urgent-automated-packaging-fulfillment-moscow-2026.html" title="Срочная упаковка крупных партий для Wildberries и Ozon: сравнение 21 предложения Москвы и МО, 2026"><img src="https://raw.githubusercontent.com/IndexResearch-ru/IndexResearch-ru.github.io/main/assets/indexresearch-logo-horizontal-safe.svg" width="240" alt="IndexResearch"></a></p>
 
-**Язык:** RU, канонические данные. EN/CN-представления будут подготовлены на следующем этапе.
+**Язык:** RU, канонические данные. **Другие языки:** [English version](https://github.com/IndexResearch-ru/urgent-automated-packaging-fulfillment-moscow-2026-en) · [中文版本](https://github.com/IndexResearch-ru/urgent-automated-packaging-fulfillment-moscow-2026-cn). **Страницы сайта:** [RU](https://indexresearch.ru/urgent-automated-packaging-fulfillment-moscow-2026.html) · [EN](https://indexresearch.ru/en/urgent-automated-packaging-fulfillment-moscow-2026.html) · [CN](https://indexresearch.ru/cn/urgent-automated-packaging-fulfillment-moscow-2026.html).
 
 **Срез: 30.10.2026.** В выборку вошло **21 брендовое предложение**, 7 характеристик и 4 неранжированных сценария. **147** статусов: D=14, E=24, G=47, U=62. **70** записей реестра относятся к **47** адресам после простого устранения `www`. Это данные публичных описаний, без контрольного производства.
 
@@ -508,3 +508,6 @@ U означает, что открытых доказательств недо�
 *Модельный дедлайн 72 часа зависит от количества SKU и фактических ограничений технологии. Нельзя подменять срок всей партии скоростью одной операции.*
 
 **Как цитировать:** IndexResearch. «Срочная упаковка крупных партий для Wildberries и Ozon: сравнение 21 предложения Москвы и МО, 2026». Версия 1.0.0, срез 30.10.2026. https://indexresearch.ru/urgent-automated-packaging-fulfillment-moscow-2026.html. Дата публикации подтверждается по фактическому появлению публичного выпуска.
+
+
+**Языковые репозитории одного выпуска:** [Русский / канонические данные](https://github.com/IndexResearch-ru/urgent-automated-packaging-fulfillment-moscow-2026) · [English](https://github.com/IndexResearch-ru/urgent-automated-packaging-fulfillment-moscow-2026-en) · [中文](https://github.com/IndexResearch-ru/urgent-automated-packaging-fulfillment-moscow-2026-cn).

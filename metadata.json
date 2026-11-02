@@ -38,5 +38,5 @@
   "participantRelationship": "Prep-Center included as one of 21 company offers. All compared by same evidence rules.",
   "editorialControl": "Marie Yakovleva approval reported by Alexey Yakovlev on 2026-10-30; original note not independently seen.",
   "identityCaveat": "HelpSeller and Fulfil.pro machinery independent status unknown: two offers do not imply two lines",
-  "publicationStateNote": "Canonical RU repository released on 2026-11-02. RU site publication and public QA are tracked separately; EN/CN are scheduled for step 7."
+  "publicationStateNote": "RU canonical evidence and RU/EN/CN GitHub README and site pages released 2026-11-02; automated site maintenance/QA and GitHub Pages deployment succeeded. Final public visual review and Google registry entry are step 8."
 }
