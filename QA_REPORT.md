@@ -9,3 +9,17 @@
 - Независимость HelpSeller и Fulfil.pro не установлена. Статусы отражают самоописание компаний.
 - calculate.py проверяет данные, ссылки на source_id, категории и принадлежность сценариям.
 - Три публичных репозитория созданы; на шаге 6 заполняется только RU canonical, EN/CN оставлены для шага 7. RU page будет добавлена на сайт только после публикации RU evidence repo; общие каталоги и EN/CN — шаг 7.
+
+## Фактическая приемка RU-пакета 02.11.2026
+
+- Canonical RU: https://github.com/IndexResearch-ru/urgent-automated-packaging-fulfillment-moscow-2026
+- Публикационный коммит пакета: `a47f94ba65e9e98a3fb271292df2ab5542df1c62`; в дереве `main` подтверждены 24 файла, включая 3 SVG.
+- Из GitHub повторно прочитаны `README.md`, `RESULTS.json`, `metadata.json`, `FACT_CLAIM_MAP.csv`, `SOURCE_REGISTER.csv`, `calculate.py`. Независимая структурная сверка: 21 предложение, 147 строк характеристик (D=14, E=24, G=47, U=62), 70 записей источников, 48 точных URL, 8 FAQ, 0 отсутствующих локальных ссылок README.
+- Дата релиза установлена в `metadata.json`, `RESULTS.json` и `CITATION.cff`: 2026-11-02. Срез данных, заморозка методики и одобрение редакции сохраняют подтвержденную дату 2026-10-30.
+- RU page: https://indexresearch.ru/urgent-automated-packaging-fulfillment-moscow-2026.html. В исходнике `main` проверены 1 H1, 21 элемент `ItemList`, 8 вопросов `FAQPage`, `Dataset`, `Article`, `BreadcrumbList`, canonical, RU-only stage, ссылки на доказательства. URL включен в `sitemap.xml`.
+- GitHub Actions maintenance + `site_qa.py`: **success**, https://github.com/IndexResearch-ru/IndexResearch-ru.github.io/actions/runs/41397371318
+- GitHub Pages deployment: **success**, https://github.com/IndexResearch-ru/IndexResearch-ru.github.io/actions/runs/41397403530
+- Визуальная проверка публичного URL через внешний просмотр не состоялась (инструмент не смог открыть новый адрес). Успешный Pages deployment не равен проверке отображения desktop/mobile; полная live-приемка запланирована на шаг 8.
+- EN/CN репозитории уже созданы и пока пусты; наполнение, каталоги, тематика и реестр относятся к шагам 7–8.
+
+**Шаг 6: RU canonical package опубликован, RU research page развернута, программные проверки пройдены.**
